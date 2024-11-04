@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Grupo3.Controllers.TiempoActual",
+    "Method": "GetCurrentTimeZone",
+    "RelativePath": "api/TiempoActual/hora-actual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zonaHorarioId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Grupo3.Controllers.TiempoActual",
+    "Method": "SyncTime",
+    "RelativePath": "api/TiempoActual/hora-sincronizada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Grupo3.Models.tiempoActual",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Grupo3.Controllers.TiempoActual",
+    "Method": "ListarZonasHorarias",
+    "RelativePath": "api/TiempoActual/listar-zonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
